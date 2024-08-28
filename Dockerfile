@@ -13,5 +13,5 @@ COPY target/*.jar /app/vg-ms-teacher.jar
 # Exponer el puerto en el que la aplicación Spring Boot escucha
 EXPOSE 8410
 
-# Comando para ejecutar la aplicación.
+# Comando para ejecutar la aplicación
 ENTRYPOINT ["java", "-jar", "/app/vg-ms-teacher.jar"]
